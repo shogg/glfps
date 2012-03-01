@@ -3,7 +3,7 @@ package glfps
 
 import (
 	"github.com/banthar/Go-SDL/sdl"
-	"github.com/banthar/Go-OpenGL/gl"
+	"github.com/banthar/gl"
 	"image"
 	"image/png"
 	"bytes"
