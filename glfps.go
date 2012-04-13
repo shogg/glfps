@@ -38,7 +38,7 @@ func fps() uint32 {
 	if t - t0 > 2000 {
 		t0 += (t - t0) / 2; frames /= 2
 	}
-
+	if t - t0 == 0 { return 0 }
 	fps := 1000 * frames / (t - t0)
 	return fps
 }
